@@ -6,6 +6,31 @@
     background-repeat: no-repeat ;
     background-position: center;
 }
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container__botao{
+    display: none;
+}
+.cabecalho__imagem{
+    padding: 1em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
 .lista-menu__titulo, .lista-menu__item{
     padding: 1em;
     background-color: var(--branco);
