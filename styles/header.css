@@ -2,5 +2,7 @@
     width: 24px;
     height: 24px;
     background-image: url("../Imagens Bookss/Menu.svg");
-    
+    display: inline-block;
+    background-repeat: no-repeat ;
+    background-position: center;
 }
