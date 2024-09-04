@@ -6,3 +6,10 @@
     background-repeat: no-repeat ;
     background-position: center;
 }
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+.lista-menu__titulo{
+    color: var(--laranja);
+}
